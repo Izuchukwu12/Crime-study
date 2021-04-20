@@ -1,0 +1,187 @@
+#importing necessary packages
+install.packages("tidyverse") 
+library(tidyverse)
+install.packages("gmodels")
+library(gmodels)
+install.packages("lsr")
+library(lsr)
+install.packages("irr")
+library(irr)
+install.packages("diptest")
+library(diptest)
+#importing data into R
+mydata <- read.csv(file.choose(), header = T, stringsAsFactors = T)
+head(mydata)
+
+#the number of observations in the data
+summary(mydata$Country)
+
+
+#print and confirm the factors for summary stats
+crime_type <- factor(mydata$CrimeType, levels = c("Heinous", "Serious", "Misdemeanor", "Petty"))
+crime_age <- factor(mydata$SuspectAgeGroup, levels = c("Adults", "Adlts&Adolescents", "Adolescents", "Children"))
+crime_gen <- factor(mydata$SuspectGender, levels = c("Male", "Female", "Both"))
+
+#now create new data frame for summary stats on age, crime type and gender of suspects
+mynewdata <- data.frame(crime_type, crime_age, crime_gen)
+summary(mynewdata)
+
+#calculate interater reliability
+icc(mydata[, c("Coder1", "Coder2", "Coder3", "Coder4", "Coder5", "Coder6")], model = "twoway", 
+    type = "consistency", unit = "single")
+
+#summary stats of coders rating of framing 
+summary(mydata$CodersAvg)
+
+#create box plot to show the skew of the framing
+boxplot(mydata$CodersAvg, horizontal = T, main = "Boxplot of Coders Average ratings")
+
+#recreate coders's average (scale) to three categories, positive, neutral and negative....call name Cat_ave
+Cat_ave <- cut(mydata$CodersAvg, breaks = c(0,4.0, 6.0, 10.0), labels = c("Positive", "Neutral", "Negative"))
+head(Cat_ave)
+summary(Cat_ave)
+
+#create table to know the percentages of the framing of each category
+prop.table(table(Cat_ave))
+
+#chi-square test for country and framing
+CrossTable(mydata$Country, Cat_ave, digits = 3, expected = T, prop.r = T, prop.c = T, prop.t = T, prop.chisq = T, chisq = T) 
+
+#conduct diptest for unimodality
+dip.test(mydata$CodersAvg, simulate.p.value = FALSE, B = 2000)
+dip(mydata$CodersAvg)
+(dS <- dip(mydata$CodersAvg, full = TRUE, debug = TRUE))
+plot(dS)
+
+#conduct diptest for unimodality
+plot(density(mydata$CodersAvg))
+
+#create histogram for rating average
+hist(mydata$CodersAvg, main = "Histogram of the average ratings of the videos")
+
+
+#run analysis of variance for framing by countries
+plot(CodersAvg~Country, data = mydata)
+analysis <- lm(CodersAvg~as.factor(Country), data = mydata)
+anova(analysis)
+aov(mydata$CodersAvg~mydata$Country)
+summary(aov(mydata$CodersAvg~mydata$Country))
+#plot of residuals for 'analysis' 
+plot(analysis, which = 1)
+#plot QQ plot to test for normality of distribution
+plot(analysis, which = 2)
+#plot histogram for 'analysis' 
+sresid <- rstandard(analysis)
+hist(sresid)
+TukeyHSD(aov(analysis))
+
+#run analysis of variance for framing of crime types
+plot(CodersAvg~CrimeType, data = mydata)
+analysis1 <- lm(CodersAvg~as.factor(CrimeType), data = mydata)
+anova(analysis1)
+aov(mydata$CodersAvg~mydata$CrimeType)
+summary(aov(mydata$CodersAvg~mydata$CrimeType))
+plot(analysis1, which = 1)
+plot(analysis1, which = 2)
+sresid <- rstandard(analysis1)
+hist(sresid)
+TukeyHSD(aov(analysis1))
+
+#run analysis of variance for framing of gender groups
+plot(CodersAvg~SuspectGender, data = mydata)
+analysis2 <- lm(CodersAvg~as.factor(SuspectGender), data = mydata)
+anova(analysis2)
+aov(mydata$CodersAvg~mydata$SuspectGender)
+summary(aov(mydata$CodersAvg~mydata$SuspectGender))
+plot(analysis2, which = 1)
+plot(analysis2, which = 2)
+sresid <- rstandard(analysis2)
+hist(sresid)
+TukeyHSD(aov(analysis2))
+
+
+#run analysis of variance for framing of age groups
+plot(CodersAvg~SuspectAgeGroup, data = mydata)
+analysis3 <- lm(CodersAvg~as.factor(SuspectAgeGroup), data = mydata)
+anova(analysis3)
+aov(mydata$CodersAvg~mydata$SuspectAgeGroup)
+summary(aov(mydata$CodersAvg~mydata$SuspectAgeGroup))
+plot(analysis3, which = 1)
+plot(analysis3, which = 2)
+sresid <- rstandard(analysis3)
+hist(sresid)
+TukeyHSD(aov(analysis3))
+
+#cross table & chi-square test for crimetype and framing
+CrossTable(mydata$CrimeType, Cat_ave, digits = 3, prop.r = T, prop.c = T, prop.t = T, prop.chisq = T, chisq = T) 
+
+#cross table & chi-square test for gender and framing
+CrossTable(mydata$SuspectGender, Cat_ave, digits = 3, prop.r = T, prop.c = T, prop.t = T, prop.chisq = T, chisq = T)
+
+#cross table & chi-square test for age group category and framing 
+CrossTable(mydata$SuspectAgeGroup, Cat_ave, digits = 3, prop.r = T, prop.c = T, prop.t = T, prop.chisq = T, chisq = T)
+CrossTable(mydata$Country, Cat_ave, digits = 3, prop.r = T, prop.c = T, prop.t = T, prop.chisq = T, chisq = T)
+
+
+#create plot of the count of the framing of the categories
+ggplot(mydata, aes(Cat_ave)) +
+  geom_bar() 
+
+#for Chisqure, another means to answer
+Newdata1 <- table(mydata$Country, Cat_ave)
+ftable(Newdata1)
+summary(Newdata1)
+cramersV(Newdata1)
+margin.table(Newdata1, 1)
+margin.table(Newdata1, 2)
+prop.table(Newdata1)
+
+#for Chisqure, for type of crime against framing
+Newdata2 <- table(mydata$Suspect.s.gender, Cat_ave)
+ftable(Newdata2)
+summary(Newdata2)
+cramersV(Newdata2)
+margin.table(Newdata2, 1)
+margin.table(Newdata2, 2)
+prop.table(Newdata2)
+
+#chi-square test for gender and framing
+CrossTable(mydata$Suspect.s.gender, Cat_ave, digits = 3, expected = T, prop.r = T, prop.c = T, prop.t = T, prop.chisq = T, chisq = T) 
+
+#create clustered bar chart of the proportion of framing by country 
+myTable <- table(Cat_ave, mydata$Country)
+myTable2 <- prop.table(myTable)
+barplot(myTable2, beside = T, ylab = "proportion of rated categories", col = c("blue", "red", "black"))
+
+#create point plot of the count of framing, facet wrap country 
+ggplot(mydata, aes(Cat_ave)) +
+  geom_bar() + 
+  facet_wrap(mydata$Country) +
+  labs(x = "Average framing by raters by countries", y = "Suspect count")
+
+#create histogram plot of the count of framing, facet wrap country 
+ggplot(mydata, aes(mydata$Coders.Avg)) +
+  geom_histogram() + 
+  facet_wrap(mydata$Country) +
+  labs(x = "Histogram of framing of suspects by countries", y = "Suspect count")
+
+#label the chart and add theme
+ggplot(mydata, aes(Cat_ave)) + 
+  geom_bar() +
+  facet_wrap(mydata$Country) +
+  theme_bw() + 
+  labs(x = "Average framing by raters", y = "Suspect count", title = "Framing by country")
+
+#compare gender and framing 
+ggplot(mydata, aes(x = Suspect.s.gender, fill = Cat_ave)) +
+  geom_bar() +
+  theme_bw() +
+  labs(x = "Average framing by raters", y = "Suspect count", title = "Framing by county gender differences")
+
+#compare gender and faming, by country
+ggplot(mydata, aes(x = Suspect.s.gender, fill = Cat_ave)) +
+  facet_wrap(mydata$Country) +
+  geom_bar() +
+  theme_bw() +
+  labs(x = "Average framing by raters", y = "Suspect count", title = "Framing by county gender differences")
+

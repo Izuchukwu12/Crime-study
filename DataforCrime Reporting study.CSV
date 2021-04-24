@@ -16,7 +16,7 @@ USA,HLN,Story 11,Heinous,Adolescents,Male,9,7,8,8,9,10,8.5
 USA,Fox,Story 12,Serious,Adults,Male,6,6,7,7,6,5,6.17
 USA,CNN,Story 13,Misdemeanor,Adolescents,Both,5,5,5,5,5,6,5.17
 USA,Fox,Story 14(1),Heinous,Adults,Male,10,9,10,10,9,10,9.67
-USA,Fox,Story 14(2)mis,Misdemeanor,Adults,Male,7,8,8,9,8,7,7.83
+USA,Fox,Story 14(2),Misdemeanor,Adults,Male,7,8,8,9,8,7,7.83
 USA,ABC,Story 15,Heinous,Adults,Female,10,10,9,10,10,9,9.67
 USA,ABC,16,Heinous,Adults,Both,5,6,5,5,5,6,5.33
 USA,ABC,17,Heinous,Adults,Male,5,4.5,5,6,5,5,5.08
@@ -148,7 +148,7 @@ Kenya,KTN,38,Serious,Adults,Both,10,10,9,9,10,10,9.67
 Kenya,Citizen TV,39,Misdemeanor,Adults,Both,10,9,10,8,8,9,9
 Kenya,Citizen TV,40,Serious,Adults,Male,10,10,9,10,10,10,9.83
 Kenya,NTV,41,Misdemeanor,Adolescents,Male,10,10,10,9,10,9,9.67
-Kenya,Citizen TV,42,Serious,Adults,Male,10,9,9,8,9,9,9
+Kenya,Citizen TV,42 (1),Serious,Adults,Male,10,9,9,8,9,9,9
 Kenya,KTN,43,Serious,Adults,Male,10,10,10,10,10,10,10
 Kenya,KTN,44,Serious,Adults,Male,8,9,9,9,9,10,9
 Kenya,K24,45,Misdemeanor,Adolescents,Female,5,6,6,6,6,6,5.83

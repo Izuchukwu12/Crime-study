@@ -1,0 +1,610 @@
+Country ,Station,StoryNum,CrimeType,SuspectAgeGroup,SuspectGender,Coder1,Coder2,Coder3,Coder4,Coder5,Coder6,CodersAvg
+USA,ABC,Story 1,Heinous,Children,Male,1,0,2,0,1,1,0.83
+USA,Inside Edition,Story 2,Heinous,Children,Female,5,4,3,4,5,5,4.33
+USA,ABC,Story 3,Heinous,Adults,Female,5,5,5,7,6,5,5.5
+USA,MSNBC,Story 4,Heinous,Adolescents,Male,7,8,9,7,7,8,7.67
+USA,Crime Watch Daily,Story 5,Serious,Adults,Male,0,0,0,0,1,0,0.17
+USA,Fox,Story 6,Misdemeanor,Adolescents,Male,5,6,5,5,6,6,5.5
+USA,ABC,Story 7,Misdemeanor,Adults,Male,7,9,8,8,7,8,7.83
+USA,ABC,Story 8(1),Heinous,Adults,Male,10,10,10,10,10,10,10
+USA,ABC,Story 8(2),Heinous,Adults,Male,9,10,8,8,7,8,8.33
+USA,ABC,Story 8(3),Heinous,Adults,Male,6,6,5,5,5,5,5.33
+USA,ABC,Story 8(4),Heinous,Adults,Male,5.5,5,6,7,6,5,5.75
+USA,ABC,Story 9,Serious,Adults,Male,6,5,6,5,5,5,5.33
+USA,Fox,Story 10,Heinous,Adolescents,Both,7,9,7,7,7,8,7.5
+USA,HLN,Story 11,Heinous,Adolescents,Male,9,7,8,8,9,10,8.5
+USA,Fox,Story 12,Serious,Adults,Male,6,6,7,7,6,5,6.17
+USA,CNN,Story 13,Misdemeanor,Adolescents,Both,5,5,5,5,5,6,5.17
+USA,Fox,Story 14(1),Heinous,Adults,Male,10,9,10,10,9,10,9.67
+USA,Fox,Story 14(2)mis,Misdemeanor,Adults,Male,7,8,8,9,8,7,7.83
+USA,ABC,Story 15,Heinous,Adults,Female,10,10,9,10,10,9,9.67
+USA,ABC,16,Heinous,Adults,Both,5,6,5,5,5,6,5.33
+USA,ABC,17,Heinous,Adults,Male,5,4.5,5,6,5,5,5.08
+USA,ABC,18,Heinous,Adults,Male,5,5,6,5,5,5,5.17
+USA,ABC,19,Heinous,Adults,Male,6,7,8,7,6,5,6.5
+USA,Crime Watch Daily,20,Heinous,Adults,Male,10,9,10,10,10,10,9.83
+USA,ABC,21,Heinous,Children,Male,5,5,6,5,5,6,5.33
+USA,Fox,22,Heinous,Adults,Male,5,5,5,6,5,6,5.33
+USA,Fox,23,Heinous,Adults,Male,6,7,6,6,5,7,6.17
+USA,ABC,24,Heinous,Adults,Female,4.5,4,5,5,6,5,4.92
+USA,ABC,25,Serious,Adults,Male,10,8,8,7,7,8,8
+USA,Fox,26,Misdemeanor,Adolescents,Male,7,8,9,9,8,7,8
+USA,ABC,27,Serious,Adults,Male,9,8,8,9,8,9,8.5
+USA,Crime Watch Daily,28,Misdemeanor,Adults,Both,9,7,7,8,9,9,8.17
+USA,ABC,29,Heinous,Adolescents,Male,8,10,6,6,7,5,7
+USA,Fox,30,Heinous,Adolescents,Male,10,10,9,10,10,10,9.83
+USA,Fox,31,Serious,Adults,Female,9,10,10,9,10,10,9.67
+USA,Fox,32,Heinous,Adults,Male,6,5,5,6,5,4,5.17
+USA,KENS5,33,Serious,Adults,Male,5,5,5,7,6,5,5.5
+USA,KENS5,34,Misdemeanor,Adults,Male,8,9,8,7,8,7,7.83
+USA,Local12,35,Misdemeanor,Adults,Female,5,6,5,7,5,5,5.5
+USA,ABC,36,Heinous,Adults,Male,10,10,7,10,8,10,9.17
+USA,ABC,37,Serious,Adults,Both,10,10,9,9,10,10,9.67
+USA,NBC,38,Heinous,Adults,Male,6,5,5,5,5.5,6,5.42
+USA,ABC,39,Serious,Adults,Male,8,9,10,9,9,10,9.17
+USA,NBC,40,Serious,Adults,Male,9,9,9,9,8,9,8.83
+USA,ABC,41,Heinous,Adolescents,Female,10,9,10,10,10,10,9.83
+USA,ABC,42,Serious,Adults,Male,6,5,5,6,5,5,5.33
+USA,ABC,43,Heinous,Adults,Male,9,9,8,10,10,8,9
+USA,NBC,44,Heinous,Adults,Female,7,7,8,8,7,7,7.33
+USA,ABC,45,Heinous,Adults,Female,8,6,7,9,8,8,7.67
+USA,ABC,46,Heinous,Adults,Female,10,9,10,10,9,9,9.5
+USA,CNN,47,Petty,Adults,Male,5,5,6,5,5,5,5.17
+USA,NBC,48,Serious,Adults,Male,6,6,6,5,5,5,5.5
+USA,Fox,49,Heinous,Adults,Female,10,10,9,9,9,9,9.33
+USA,Fox,50,Serious,Adolescents,Male,6,5,5,6,6,5,5.5
+USA,NBC,51,Heinous,Adults,Male,7,6,6,6,8,6,6.5
+USA,Local12,52,Heinous,Adults,Both,7,8,10,9,8,10,8.67
+USA,NBC,53,Heinous,Adults,Both,5.5,8,6,7,6,5.5,6.33
+USA,CNN,54,Heinous,Adolescents,Male,5,5,4,4,6,5,4.83
+USA,NBC,55,Heinous,Adults,Male,5.5,6,5,6,5,6,5.58
+USA,Fox,56,Heinous,Adults,Male,10,8,10,10,10,10,9.67
+USA,ABC,57,Heinous,Adolescents,Male,5,5,6.5,6,5,5,5.42
+USA,Fox,58,Heinous,Adults,Male,9,8,9,9,8,7,8.33
+USA,Fox,59,Heinous,Adults,Male,9,10,9,9,9,9,9.17
+USA,ABC,60,Serious,Adults,Male,9,8,9,8,7,9,8.33
+USA,ABC,61,Heinous,Adults,Male,10,9,9,9,8,9,9
+USA,CNN,62,Heinous,Adolescents,Female,5,6,6,5,6,5.5,5.58
+USA,Local12,63,Petty,Adults,Both,5,6,6,5,5,5,5.33
+USA,Crime Watch Daily,64,Misdemeanor,Adolescents,Male,4.5,6,5,6,5,6,5.42
+USA,ABC,65,Heinous,Adults,Male,7,8,8,7,9,8,7.83
+USA,Fox,66,Heinous,Adults,Male,8,9,7,9,8,9,8.33
+USA,Fox,67,Heinous,Adults,Male,6,9,8,7,9,9,8
+USA,Inside Edition,68,Serious,Adults,Male,9,10,10,10,10,9,9.67
+USA,MSNBC,69,Serious,Adolescents,Both,10,8,7,8,8,9,8.33
+USA,Fox,70,Heinous,Adolescents,Both,8,9,7,9,9,8,8.33
+USA,ABC,71,Serious,Adults,Male,6,5,5.5,5,6,5,5.42
+USA,ABC,72,Heinous,Adults,Male,10,9,10,9,9,8,9.17
+USA,HLN,73,Heinous,Adults,Male,10,10,10,10,10,10,10
+USA,MSNBC,74,Heinous,Adults,Male,7,8,8,7,9,9,8
+USA,CNN,75,Misdemeanor,Children,Female,6,5,6,5,5,5,5.33
+USA,Fox,76,Heinous,Adolescents,Male,5,5,5,6,5,5,5.17
+USA,Fox,77,Serious,Adults,Male,8,9,10,9,9,8,8.83
+USA,ABC,78,Heinous,Adults,Male,9,10,7,8,7,7,8
+USA,ABC,79,Heinous,Adults,Male,6,5,5,6,5,5,5.33
+USA,ABC,80,Serious,Adults,Female,6,5.5,5.5,5,6,5,5.5
+USA,Fox,81,Heinous,Adults,Male,6,5,5,5,5.5,5,5.25
+USA,Fox,82,Petty,Adults,Male,5,5,5,5,5.5,5,5.08
+USA,Fox,83,Heinous,Adults,Male,10,10,9,10,10,10,9.83
+USA,NBC,84,Serious,Adults,Male,10,8,9,8,9,9,8.83
+USA,ABC,85,Serious,Adults,Male,9,9,8,7,8,8,8.17
+USA,NBC,86,Heinous,Adults,Male,6,5,6,5,7,5,5.67
+USA,NBC,87,Misdemeanor,Adults,Female,5,5,5,5,6,5,5.17
+USA,Fox,88,Heinous,Adolescents,Male,2,4,4,2,2,2,2.67
+USA,MSNBC,89,Heinous,Adolescents,Male,10,9,8,9,8,8,8.67
+USA,Inside Edition,80,Heinous,Adults,Male,6,5,7,6,6,5,5.83
+USA,Crime Watch Daily,91,Heinous,Adults,Male,6,6,5,5,5,5,5.33
+USA,Crime Watch Daily,92,Heinous,Adults,Both,5,6,5,5,5,5,5.17
+USA,MSNBC,93(1),Heinous,Adults,Male,7,8,8,7,8,9,7.83
+USA,MSNBC,93 (2),Heinous,Adolescents,Male,8,7,9,8,9,8,8.17
+USA,Fox,94,Serious,Adults,Male,6,5,5,4.5,5,5,5.08
+USA,ABC,95,Serious,Adults,Both,9,8,7,8,8,8,8
+USA,ABC,96,Heinous,Adults,Male,10,10,9,10,10,8,9.5
+USA,Fox,97,Misdemeanor,Children,Male,5,6,5,5,5,5,5.17
+USA,Fox,98,Heinous,Adults,Male,5,5,5,5,5,5,5
+USA,Fox,99,Serious,Adults,Male,7,6,8,6,8,7,7
+USA,ABC,100,Serious,Adults,Male,5,6,5,5,5,5,5.17
+USA,ABC,58,Heinous,Adults,Female,10,9,9,10,10,9,9.5
+USA,ABC,59,Serious,Adults,Male,9,10,10,9,10,8,9.33
+Kenya,KTN,1,Petty,Adults,Male,1,0,1,2,1,1,1
+Kenya,KTN,2,Serious,Adults,Male,10,10,10,10,10,10,10
+Kenya,KTN,3,Serious,Adults,Female,8,9,8,7,6,8,7.67
+Kenya,KTN,4,Serious,Adults,Both,8,5,6,5,5,6,5.83
+Kenya,NTV,5,Serious,Adults,Male,10,9,10,9,9,9,9.33
+Kenya,K24,6(1),Misdemeanor,Adults,Both,10,10,10,10,10,9,9.83
+Kenya,K24,6(2),Serious,Adults,Male,10,10,9,10,9,9,9.5
+Kenya,NTV,7,Petty,Children,Male,6,6,5.5,6,5,5,5.58
+Kenya,K24,8,Petty,Adults,Male,10,9,10,9,10,10,9.67
+Kenya,KTN,9,Heinous,Adults,Both,4.5,5,4.5,4.5,5,5,4.75
+Kenya,KTN,10,Heinous,Adults,Male,5,6,5,6,5,5,5.33
+Kenya,KTN,11,Serious,Adults,Both,10,10,9,9,10,10,9.67
+Kenya,NTV,12,Petty,Adults,Male,10,10,10,10,10,9,9.83
+Kenya,Nairobi News,13,Heinous,Adults,Male,10,10,10,10,10,10,10
+Kenya,NTV,14,Misdemeanor,Adults,Male,10,9,10,8.5,10,8.5,9.33
+Kenya,Citizen TV,15,Petty,Adults,Both,5,5,6,5,5,5,5.17
+Kenya,KTN,16,Misdemeanor,Adults,Male,10,10,10,10,10,10,10
+Kenya,KTN,17,Petty,Adults,Both,10,10,10,10,10,10,10
+Kenya,Citizen TV,18,Misdemeanor,Adults,Both,10,10,9,8,10,9,9.33
+Kenya,Citizen TV,19,Heinous,Adults,Male,10,10,10,10,10,10,10
+Kenya,KTN,20,Misdemeanor,Adults,Male,8,9,9,10,9,9,9
+Kenya,Citizen TV,21,Misdemeanor,Adults,Male,5,6,7,6,6,7,6.17
+Kenya,Citizen TV,22,Heinous,Adults,Female,5,5,6,7,6,6,5.83
+Kenya,NTV,23,Misdemeanor,Adults,Male,8,9,8,9,8,8,8.33
+Kenya,NTV,24,Serious,Adults,Male,5,7,6,8,7,6,6.5
+Kenya,Citizen TV,25,Petty,Adults,Both,10,9,9,8,9,9,9
+Kenya,KTN,26,Misdemeanor,Adults,Male,10,9,10,10,10,10,9.83
+Kenya,KTN,27,Heinous,Adults,Male,5,6,6,5,5,5,5.33
+Kenya,KTN,28,Heinous,Adults,Male,6,7,8,7,6,5,6.5
+Kenya,K24,29,Misdemeanor,Adults,Female,10,9,10,10,9,10,9.67
+Kenya,Citizen TV,30,Petty,Adults,Both,10,10,9,10,10,10,9.83
+Kenya,Citizen TV,31,Heinous,Adolescents,Male,10,10,10,10,10,10,10
+Kenya,Citizen TV,32,Heinous,Adults,Male,10,9,10,10,9,10,9.67
+Kenya,Magical Kenya TV,33,Petty,Adults,Male,10,9,10,10,9,9,9.5
+Kenya,NTV,34,Petty,Adults,Male,10,10,10,9,10,10,9.83
+Kenya,NTV,35,Petty,Adults,Male,8,9,10,8,7,8,8.33
+Kenya,Citizen TV,36,Petty,Adults,Both,10,10,10,10,10,10,10
+Kenya,KTN,37,Misdemeanor,Adults,Male,10,10,10,10,10,10,10
+Kenya,KTN,38,Serious,Adults,Both,10,10,9,9,10,10,9.67
+Kenya,Citizen TV,39,Misdemeanor,Adults,Both,10,9,10,8,8,9,9
+Kenya,Citizen TV,40,Serious,Adults,Male,10,10,9,10,10,10,9.83
+Kenya,NTV,41,Misdemeanor,Adolescents,Male,10,10,10,9,10,9,9.67
+Kenya,Citizen TV,42,Serious,Adults,Male,10,9,9,8,9,9,9
+Kenya,KTN,43,Serious,Adults,Male,10,10,10,10,10,10,10
+Kenya,KTN,44,Serious,Adults,Male,8,9,9,9,9,10,9
+Kenya,K24,45,Misdemeanor,Adolescents,Female,5,6,6,6,6,6,5.83
+Kenya,KTN,46,Serious,Adults,Male,9,8,9,9,9,9,8.83
+Kenya,KTN,47,Serious,Adults,Male,10,10,10,10,10,10,10
+Kenya,Citizen TV,48,Serious,Adults,Male,10,10,10,10,10,10,10
+Kenya,Citizen TV,49,Heinous,Adults,Male,10,9,9,10,9,8,9.17
+Kenya,KTN,50,Heinous,Adults,Male,10,10,9,10,10,9,9.67
+Kenya,Citizen TV,51,Serious,Adults,Male,9,9,8,8,9,8,8.5
+Kenya,KTN,52,Heinous,Adlts&Adolescents,Both,10,10,10,8,9,9,9.33
+Kenya,Nairobi News,53,Heinous,Adults,Male,10,9,9,10,10,10,9.67
+Kenya,Citizen TV,55,Misdemeanor,Adults,Male,9,8,9,7,9,8,8.33
+Kenya,KTN,56,Misdemeanor,Adolescents,Both,5,5,5.5,6,5,5,5.25
+Kenya,KTN,57,Petty,Adolescents,Female,6,6,5,5,5.5,5,5.42
+Kenya,KTN,58,Petty,Adolescents,Female,6,7,7,8,7,7,7
+Kenya,K24,59,Misdemeanor,Adults,Male,7,8,9,8,8,8,8
+Kenya,NTV,60,Petty,Adolescents,Male,9,9,8,7,10,8,8.5
+Kenya,NTV,61,Heinous,Adults,Male,9,8,10,9,8,10,9
+Kenya,Citizen TV,62,Heinous,Adults,Male,10,10,10,10,10,10,10
+Kenya,NTV,63,Heinous,Adults,Male,10,9,10,9,10,9,9.5
+Kenya,NTV,64,Serious,Adults,Male,10,10,10,9,10,10,9.83
+Kenya,KTN,65,Serious,Adults,Male,10,10,9,9,10,9,9.5
+Kenya,NTV,66,Misdemeanor,Adults,Female,5,5,6,5,5,5,5.17
+Kenya,KTN,67,Heinous,Adults,Male,10,9,10,10,10,10,9.83
+Kenya,Citizen TV,68,Heinous,Adults,Both,10,10,10,10,10,10,10
+Kenya,KTN,69,Heinous,Adults,Both,8,8,9,8,8,7,8
+Kenya,NTV,70,Heinous,Adults,Male,10,10,9,8,9,9,9.17
+Kenya,K24,71,Heinous,Adlts&Adolescents,Both,5,6,6,5,5,5,5.33
+Kenya,NTV,72,Heinous,Adults,Male,10,9,9,9,10,9,9.33
+Kenya,NTV,73,Heinous,Adults,Male,9,10,9,9,8,9,9
+Kenya,KTN,74,Serious,Adolescents,Male,10,10,9,9,10,8,9.33
+Kenya,Citizen TV,75,Misdemeanor,Adolescents,Female,9,8,7,8,8,7,7.83
+Kenya,K24,76,Serious,Adults,Male,9,9,7,8,9,9,8.5
+Kenya,Citizen TV,77,Misdemeanor,Adolescents,Male,5,5,5.5,5,5,6,5.25
+Kenya,Magical Kenya TV,78,Serious,Adults,Female,9,8,8,9,10,9,8.83
+Kenya,NTV,79,Serious,Adults,Female,5,7,6,5,5,5,5.5
+Kenya,Magical Kenya TV,80,Heinous,Adults,Male,10,9,10,10,10,10,9.83
+Kenya,Magical Kenya TV,81,Heinous,Adults,Male,10,10,10,10,10,10,10
+Kenya,Citizen TV,82,Serious,Adlts&Adolescents,Both,9,8,8,7,8,7,7.83
+Kenya,Citizen TV,83,Serious,Adults,Male,10,10,9,10,9,10,9.67
+Kenya,KTN,84,Serious,Adults,Male,9,8,9,9,9,8,8.67
+Kenya,KTN,85,Misdemeanor,Adults,Male,8,9,10,8,7,8,8.33
+Kenya,KTN,86,Serious,Adults,Male,10,10,10,10,10,9,9.83
+Kenya,K24,87,Serious,Adults,Male,10,10,10,10,10,10,10
+Kenya,NTV,88,Heinous,Adults,Male,10,10,9,9,10,10,9.67
+Kenya,Citizen TV,42(2),Heinous,Adults,Male,10,10,10,10,9,10,9.83
+Philippines,GMA News TV,1,Misdemeanor,Adolescents,Both,7,8,9,9,10,9,8.67
+Philippines,UNTV,2,Misdemeanor,Adults,Male,9,8,9,9,10,8,8.83
+Philippines,ABS-CBN,3,Misdemeanor,Adults,Male,9,8,10,9,9,9,9
+Philippines,UNTV,4,Misdemeanor,Adults,Male,6,5,5,5,5.5,5,5.25
+Philippines,GMA News TV,5,Heinous,Adults,Male,9,9,8,8,9,10,8.83
+Philippines,GMA News TV,6,Heinous,Adults,Male,10,9,8,8,9,9,8.83
+Philippines,GMA News TV,7,Misdemeanor,Adults,Male,10,9,9,9,9,10,9.33
+Philippines,GMA News TV,8,Heinous,Adults,Male,8,9,8,9,9,10,8.83
+Philippines,GMA News TV,9,Heinous,Adults,Male,10,8,9,9,9,10,9.17
+Philippines,GMA News TV,10,Heinous,Adults,Male,10,9,9,9,10,10,9.5
+Philippines,GMA News TV,11,Heinous,Adults,Male,10,10,10,10,10,10,10
+Philippines,GMA News TV,12,Heinous,Adults,Male,10,8,10,9,9,10,9.33
+Philippines,GMA News TV,13,Heinous,Adults,Male,10,10,10,10,10,10,10
+Philippines,GMA News TV,14,Heinous,Adults,Male,10,9,10,8,10,10,9.5
+Philippines,GMA News TV,15,Misdemeanor,Adults,Both,9,9,8,9,8,9,8.67
+Philippines,GMA News TV,16,Misdemeanor,Adults,Male,10,10,9,10,10,9,9.67
+Philippines,GMA News TV,17,Misdemeanor,Adults,Male,10,9,10,9,9,8,9.17
+Philippines,GMA News TV,18,Misdemeanor,Adolescents,Both,10,9,10,10,10,10,9.83
+Philippines,GMA News TV,19,Serious,Adults,Male,10,10,9,10,9,9,9.5
+Philippines,UNTV,20,Serious,Adults,Male,9,8,8,9,8,9,8.5
+Philippines,UNTV,21,Misdemeanor,Adults,Male,10,10,9,10,10,9,9.67
+Philippines,UNTV,22,Serious,Adults,Male,10,9,10,9,10,10,9.67
+Philippines,ABS-CBN,23,Serious,Adults,Male,10,10,9,10,10,10,9.83
+Philippines,GMA News TV,24,Serious,Adults,Male,10,10,10,10,10,10,10
+Philippines,UNTV,25,Serious,Adults,Male,5,6,5,5,5,5,5.17
+Philippines,UNTV,26,Serious,Adults,Male,6,6.5,5,6,5,6,5.75
+Philippines,UNTV,27,Misdemeanor,Adolescents,Male,6,5.5,5,6,5,5,5.42
+Philippines,UNTV,28,Serious,Adults,Male,9,6,7,6,9,9,7.67
+Philippines,UNTV,29,Misdemeanor,Adults,Male,5,6,6,5,7,6,5.83
+Philippines,UNTV,30,Misdemeanor,Adolescents,Male,5,5,5,5,5,5,5
+Philippines,UNTV,31,Serious,Adolescents,Male,5,5,6,5,6,5,5.33
+Philippines,ABS-CBN,32,Serious,Adults,Male,8,8,9,10,8,9,8.67
+Philippines,ABS-CBN,33,Serious,Adults,Male,5,6,5,5,6,6,5.5
+Philippines,GMA News TV,34,Serious,Adults,Male,10,10,9,10,10,10,9.83
+Philippines,Inquirer.net,35,Serious,Adults,Male,10,9,10,9,10,9,9.5
+Philippines,ABS-CBN,36,Serious,Adults,Male,10,10,9,10,10,9,9.67
+Philippines,Global News,37,Serious,Adults,Male,10,10,9,10,9,9,9.5
+Philippines,GMA News TV,38,Serious,Adults,Both,10,10,9,10,10,10,9.83
+Philippines,ABS-CBN,39,Heinous,Adolescents,Male,10,10,10,9,10,10,9.83
+Philippines,GMA News TV,40,Heinous,Adults,Male,9,9,8,9,10,9,9
+Philippines,GMA News TV,41,Serious,Adults,Both,10,10,10,10,10,10,10
+Philippines,GMA News TV,42,Heinous,Adults,Male,7,6,8,7,7,8,7.17
+Philippines,ABS-CBN,43,Heinous,Adults,Male,9,8,10,9,10,9,9.17
+Philippines,GMA News TV,43,Heinous,Adults,Male,10,7,8,8,8,8,8.17
+Philippines,GMA News TV,44,Heinous,Adults,Male,8,9,9,9,10,8,8.83
+Philippines,GMA News TV,45,Serious,Adlts&Adolescents,Both,9,8,10,9,9,9,9
+Philippines,GMA News TV,46,Heinous,Adults,Male,6,5,5,5,6,5.5,5.42
+Philippines,UNTV,47,Heinous,Adults,Male,9,9,8,8,8,9,8.5
+Philippines,UNTV,48,Serious,Adults,Male,10,9,8,8,9,9,8.83
+Philippines,GMA News TV,49,Misdemeanor,Adolescents,Female,8,9,8,9,9,9,8.67
+Philippines,ABS-CBN,50,Heinous,Adults,Male,8,9,8,9,9,10,8.83
+Philippines,UNTV,51,Heinous,Adults,Both,10,8,9,9,10,9,9.17
+Philippines,ABS-CBN,52,Heinous,Adults,Male,10,10,10,10,9,10,9.83
+Philippines,GMA News TV,53,Misdemeanor,Adults,Male,9,10,10,10,9,10,9.67
+Philippines,GMA News TV,54,Misdemeanor,Adolescents,Both,10,10,9,10,9,8,9.33
+Philippines,Inquirer.net,55,Serious,Adults,Male,9,10,10,10,10,9,9.67
+Philippines,GMA News TV,56,Heinous,Adults,Male,9,10,9,9,9,8,9
+Philippines,Global News,57,Heinous,Adults,Male,5,6,6,7,5,5,5.67
+Philippines,GMA News TV,58,Serious,Adults,Male,9,8,8,9,9,9,8.67
+Philippines,GMA News TV,59,Heinous,Adults,Male,9,10,10,9,9,9,9.33
+Philippines,ABS-CBN,60,Heinous,Adults,Male,9,10,8,9,8,9,8.83
+Philippines,GMA News TV,61,Misdemeanor,Adlts&Adolescents,Male,5,5,5,6,7,6,5.67
+Philippines,ABS-CBN,62,Heinous,Adults,Both,9,9,9,8,9,10,9
+Philippines,UNTV,63,Misdemeanor,Adults,Male,10,10,10,10,10,10,10
+Philippines,UNTV,64,Heinous,Adults,Male,7,6,8,7,8,7,7.17
+Philippines,GMA News TV,65,Heinous,Adults,Female,7,8,6,7,8,8,7.33
+Philippines,UNTV,66,Serious,Adults,Male,9,8,10,9,9,10,9.17
+Philippines,UNTV,67,Misdemeanor,Adlts&Adolescents,Both,9,10,10,9,10,9,9.5
+Philippines,UNTV,68,Heinous,Adults,Male,10,10,9,8,10,9,9.33
+Philippines,GMA News TV,69,Misdemeanor,Adults,Male,5,6,5,5.5,6,5,5.42
+Philippines,GMA News TV,70,Heinous,Adults,Male,10,10,9,10,9,9,9.5
+Philippines,ABS-CBN,71,Heinous,Adults,Male,10,10,10,10,9,10,9.83
+Philippines,ABS-CBN,72,Serious,Adults,Male,10,9,10,9,9,9,9.33
+Philippines,UNTV,73,Heinous,Adults,Male,9,9,8,9,8,8,8.5
+Philippines,ABS-CBN,74,Heinous,Adults,Male,10,9,8,9,10,9,9.17
+Philippines,Inquirer.net,75,Serious,Adults,Male,9,9,8,9,10,9,9
+Philippines,ABS-CBN,76,Heinous,Adults,Male,8,8,9,10,9,9,8.83
+Philippines,UNTV,77,Heinous,Adults,Male,9,10,8,9,9,7,8.67
+Philippines,UNTV,78,Heinous,Adults,Male,9,10,10,10,9,9,9.5
+Philippines,ABS-CBN,79,Misdemeanor,Adlts&Adolescents,Male,10,10,10,8.5,9,8,9.25
+Philippines,GMA News TV,80,Heinous,Adults,Male,5,6,7,6,5,5,5.67
+Philippines,UNTV,81,Heinous,Adults,Male,10,9,8,8,9,9,8.83
+Philippines,GMA News TV,82,Heinous,Adults,Male,9,9,9,8,8,9,8.67
+Philippines,GMA News TV,83,Misdemeanor,Adults,Male,8,9,9,9,9,9,8.83
+Philippines,ABS-CBN,84,Serious,Adults,Male,10,9,9,9,8.5,9,9.08
+UK,BBC,1,Heinous,Adults,Male,5,5,6,5,5,5,5.17
+UK,BBC,2,Serious,Adults,Male,4,4,6,4,5,4,4.5
+UK,BBC,3,Petty,Adults,Male,5,6,5,5,5,6,5.33
+UK,ITV,4,Serious,Adults,Male,5,6,5,6,6,6,5.67
+UK,Sky News,5,Serious,Adults,Male,5,6,7,7,7,8,6.67
+UK,Sky News,6,Misdemeanor,Adolescents,Male,6,5,6,5,5,5,5.33
+UK,Sky News,7,Misdemeanor,Adults,Male,5,5,5,5,5,5,5
+UK,Sky News,8,Serious,Adults,Male,5,5,6,5,5,4.5,5.08
+UK,ITV,9,Misdemeanor,Adults,Male,6,5,5,5,5,5,5.17
+UK,BBC,10,Misdemeanor,Adults,Male,5,5,5,5,5,5,5
+UK,Sky News,11,Serious,Adults,Male,5,5,5,5,5,5,5
+UK,MailOnline,12,Serious,Adolescents,Both,8,10,8,9,10,9,9
+UK,ITV,13,Serious,Adults,Male,8,10,8,8,9,9,8.67
+UK,ITV,14,Serious,Adults,Male,5,6,5,5,5,5,5.17
+UK,ITV,15,Misdemeanor,Adults,Male,5,5,5,5,5,5,5
+UK,Sky News,16,Misdemeanor,Adults,Male,5,6,5.5,5,5,5,5.25
+UK,Sky News,17,Misdemeanor,Adults,Male,5,5,5,5,5,5,5
+UK,The Guardian,18,Misdemeanor,Adolescents,Male,5,5,5,5,5,5,5
+UK,BBC,19,Heinous,Adults,Male,7,6,5,6,7,6,6.17
+UK,ITV,20,Misdemeanor,Adults,Both,5,5,5,5,5,5,5
+UK,MailOnline,21,Misdemeanor,Adults,Both,5,5,5,5,5,5,5
+UK,BBC,22,Serious,Adults,Male,6,5,5,6,5,5,5.33
+UK,ITV,23,Petty,Adults,Male,6,8,7,7,6,5,6.5
+UK,ITV,24,Heinous,Adults,Male,5,5,5,5,5,5,5
+UK,BBC,25,Heinous,Adults,Male,10,9,10,9,8,9,9.17
+UK,ITV,26,Serious,Adults,Male,7,6,7,6,7,8,6.83
+UK,ITV,27,Heinous,Adults,Male,5,6,5,5,5,5,5.17
+UK,ITV,28,Misdemeanor,Adults,Male,5.5,5.5,5,5,5,5,5.17
+UK,BBC,29,Serious,Adults,Male,5,5,5,5,6,5,5.17
+UK,BBC,30,Serious,Adults,Male,4.5,5.5,5.5,5,5,5,5.08
+UK,ITV,31,Serious,Adults,Male,5,5,5,6,5,5,5.17
+UK,BBC,32,Misdemeanor,Adlts&Adolescents,Both,7,8,7,5,6,6,6.5
+UK,ITV,33,Serious,Adults,Male,5,6,6,5,5,5,5.33
+UK,MailOnline,34,Serious,Adults,Male,5,6,5,5,6,5,5.33
+UK,The Guardian,35,Serious,Adults,Male,5,6,7,5,5,5,5.5
+UK,BBC,36,Serious,Adults,Female,5,5,5,5,6,5,5.17
+UK,BBC,37,Serious,Adults,Male,7,8,8,10,8,9,8.33
+UK,The Guardian,38,Heinous,Adolescents,Both,9,9,8,10,9,9,9
+UK,ITV,39,Misdemeanor,Adolescents,Female,5,6,5,6,5,5,5.33
+UK,DangerTV,40(1),Misdemeanor,Adolescents,Male,5,6,7,5,5,6,5.67
+UK,DangerTV,40(2),Serious,Adults,Male,5,5,6,5,6,6,5.5
+UK,DangerTV,40(3),Serious,Adults,Male,5,5,5,5,5,5,5
+UK,DangerTV,41(1),Serious,Adults,Male,5,5,5,5,5,5,5
+UK,DangerTV,42(2),Serious,Adults,Male,6,6,5,6,6,5,5.67
+UK,Sky News,43,Petty,Children,Female,1,2,1,2,3,1,1.67
+UK,Sun UK,44,Serious,Adults,Male,5,6,6,5,6,6,5.67
+UK,Channel 4,45,Serious,Adults,Male,8,7,8,9,9,8,8.17
+UK,Sun UK,46,Serious,Adults,Female,5,5,5,6,5,5,5.17
+UK,ITV,47,Serious,Adults,Male,5,5,5,5,5,5,5
+UK,ITV,48,Misdemeanor,Adlts&Adolescents,Both,6,5,6,5,5,5,5.33
+UK,DangerTV,49(1),Misdemeanor,Adolescents,Both,5,5,6,5,5,5,5.17
+UK,DangerTV,49(2),Serious,Adults,Male,5.5,6,6,5,5,6,5.58
+UK,DangerTV,49(3),Serious,Adults,Male,6,5,5,5,5,5,5.17
+UK,The Guardian,50,Misdemeanor,Adolescents,Female,1,2,1,4,4,2,2.33
+UK,BBC,51,Serious,Adults,Male,7,8,9,7,8,7,7.67
+UK,BBC,52,Serious,Adults,Male,5,5,6,5,5,5,5.17
+UK,BBC,53,Serious,Adults,Male,6,5,5,6,5,6,5.5
+UK,BBC,54,Petty,Adolescents,Male,4,4.5,5,5,4,3,4.25
+UK,Sky News,55,Serious,Adults,Female,5,6,5,5,5,5,5.17
+UK,Sky News,56,Serious,Adults,Male,6,5,7,5,6,5,5.67
+UK,MailOnline,57,Serious,Adults,Male,7,8,8,9,7,8,7.83
+UK,ITV,58,Serious,Adults,Male,8,9,10,9,8,8,8.67
+UK,ITV,60,Serious,Adults,Female,5,6,5,5,5,6,5.33
+UK,ITV,61,Serious,Adults,Female,7,6,5,6,7,6,6.17
+UK,Channel 4,62,Serious,Adults,Male,6,8,7,7,6,8,7
+UK,The Guardian,63,Heinous,Adults,Male,5,6,5,5,5,5,5.17
+UK,Channel 4,64,Heinous,Adolescents,Male,5.5,5,6,6,5,5,5.42
+UK,Sun UK,65,Serious,Adults,Both,5,5,6,5,6,5,5.33
+UK,ITV,66,Heinous,Adults,Male,8,10,8,9,9,9,8.83
+UK,Sky News,67,Heinous,Adults,Male,5,6,5,5,6,5,5.33
+UK,Sun UK,68,Misdemeanor,Adults,Male,6,5,5.5,5,5,5,5.25
+UK,Sun UK,69,Serious,Adults,Male,6,7,6,7,8,7,6.83
+UK,Sky News,70,Petty,Adults,Male,4.5,3,2,5,4.8,4,3.88
+UK,DangerTV,71(1),Serious,Adults,Male,5,6,6,6,5,5,5.5
+UK,DangerTV,71(2),Serious,Adolescents,Female,5,6,6,7,6,5,5.83
+UK,DangerTV,71(3),Serious,Adults,Male,6,6,5,5,5,5,5.33
+UK,DangerTV,71(4),Petty,Adults,Female,7,8,8,9,6,8,7.67
+UK,DangerTV,72(1),Petty,Adults,Male,8,7,8,10,9,8,8.33
+UK,DangerTV,72(2),Petty,Adults,Male,10,8,9,8,10,9,9
+UK,DangerTV,72(3),Petty,Adults,Male,9,9,8,10,9,10,9.17
+UK,The Guardian,73,Petty,Adults,Male,5,6,7,5,5,5,5.5
+UK,ITV,74,Misdemeanor,Adults,Male,6,5,5,6,6,6,5.67
+UK,DangerTV,75(1),Serious,Adults,Female,7,8,7,6,2,8,6.33
+UK,DangerTV,75(2),Petty,Adults,Male,5,6,5,5,5,5,5.17
+UK,DangerTV,75(3),Heinous,Adults,Both,5,5,6,5,5,5,5.17
+UK,DangerTV,75(4),Petty,Adults,Male,5,5,5,5,5,5,5
+UK,MailOnline,76,Misdemeanor,Adolescents,Male,5,5,5,5,5,5,5
+UK,MailOnline,77,Serious,Adults,Male,5,6,7,5,5,5,5.5
+UK,MailOnline,78,Misdemeanor,Adults,Male,6,6,7,5,6,6,6
+UK,DangerTV,79(1),Serious,Adults,Female,6,5,5.5,5,5,5,5.25
+UK,DangerTV,79(2),Petty,Adolescents,Male,5,5,5,5,5,5,5
+UK,DangerTV,79(3),Heinous,Adults,Male,5,5,5,5,5,5,5
+UK,DangerTV,79(4),Heinous,Adults,Male,6,5,6,8,6,7,6.33
+UK,DangerTV,79(5),Heinous,Adults,Male,4.5,4,5,6,3,3,4.25
+UK,DangerTV,79(6),Heinous,Adults,Female,5,4.5,5,5,5,5,4.92
+UK,DangerTV,80(1),Serious,Adults,Male,6,7,8,10,10,8,8.17
+UK,DangerTV,80(2),Misdemeanor,Adults,Female,6,5,5,5,6,5,5.33
+UK,Channel 4,81,Misdemeanor,Adults,Male,8,7,8,9,9,8,8.17
+South Korea,Yonhap News TV,1,Heinous,Adults,Male,5,5,5,4.5,5,6,5.08
+South Korea,Yonhap News TV,2,Petty,Adolescents,Male,5,5,5,5,5,5,5
+South Korea,MBC,3,Misdemeanor,Adolescents,Male,5,5,5,5,5,5,5
+South Korea,KBS,4,Petty,Adolescents,Male,5,4.5,6,5.5,5,5,5.17
+South Korea,YTN,5,Heinous,Adolescents,Male,7,8,10,9,10,10,9
+South Korea,YTN,6,Heinous,Adults,Male,8,10,8,7,8,7,8
+South Korea,KBS,7,Petty,Adults,Male,5,6,5,5,5,5,5.17
+South Korea,Arirang TV,8,Heinous,Adults,Male,8,7,9,8,7,8,7.83
+South Korea,YTN,9,Serious,Adults,Male,5,5,6,5,5,6,5.33
+South Korea,YTN,10,Heinous,Adults,Both,5,5,5,5,5,5,5
+South Korea,Yonhap News TV,11,Misdemeanor,Adults,Male,5,6,5,5,4.5,5,5.08
+South Korea,Yonhap News TV,12,Misdemeanor,Adolescents,Male,6,5,5,5,5,6,5.33
+South Korea,Yonhap News TV,14,Heinous,Adults,Male,6,7,6,5,5,5,5.67
+South Korea,Yonhap News TV,15,Misdemeanor,Adolescents,Female,5,6,5,5,5,6,5.33
+South Korea,MBC,16,Misdemeanor,Adolescents,Male,5,5,4.5,5,6.5,5,5.17
+South Korea,Yonhap News TV,17,Heinous,Adults,Male,5,5,5,5,5,5,5
+South Korea,Yonhap News TV,18,Heinous,Adults,Male,5,5,6,5,5,7,5.5
+South Korea,Yonhap News TV,19,Heinous,Adults,Male,5,5,5,5.5,6,6,5.42
+South Korea,Yonhap News TV,20,Heinous,Adolescents,Both,6,7,6,5,5,5,5.67
+South Korea,Yonhap News TV,21,Misdemeanor,Adults,Male,5,6,5,5,5,5,5.17
+South Korea,Yonhap News TV,22,Misdemeanor,Adolescents,Female,5,6,5.5,5,5,5,5.25
+South Korea,Yonhap News TV,23,Misdemeanor,Adolescents,Female,5,5,5,5,5,5,5
+South Korea,Yonhap News TV,24,Serious,Adolescents,Male,8,10,9,10,10,9,9.33
+South Korea,Yonhap News TV,25,Petty,Adults,Male,5,5,5,5,5,5,5
+South Korea,SBS,26,Serious,Adolescents,Male,6,5,6,5,5,5,5.33
+South Korea,Yonhap News TV,27,Serious,Adults,Male,5,6,5,5.5,5,5,5.25
+South Korea,TV Joseon,28,Misdemeanor,Adolescents,Female,5,5,5,5,5,6,5.17
+South Korea,MBC,29,Misdemeanor,Adults,Male,5,6,5,5,5,6,5.33
+South Korea,MBC,30,Serious,Adults,Male,5,5,6,5,5,5,5.17
+South Korea,YTN,31,Heinous,Adults,Male,6,7,5,5,5,6,5.67
+South Korea,Yonhap News TV,32,Misdemeanor,Adults,Male,5,5,5,5,5,5,5
+South Korea,YTN,33,Misdemeanor,Adults,Male,5,5,5,5,5,5,5
+South Korea,SBS,34,Misdemeanor,Adults,Male,5,5,6,5,5,5,5.17
+South Korea,Yonhap News TV,35,Misdemeanor,Adolescents,Male,6,5,5,5,6,5,5.33
+South Korea,JTBC,36,Misdemeanor,Adults,Male,5,5,5,5,5,5,5
+South Korea,JTBC,37,Misdemeanor,Adolescents,Female,5,5,5,5,5,5,5
+South Korea,YTN,38,Petty,Adults,Male,6,5,5,5,6,6,5.5
+South Korea,YTN,39(1),Misdemeanor,Adolescents,Male,5,5,5,5,5,5,5
+South Korea,YTN,40,Misdemeanor,Adolescents,Female,5,5,5,5,6,5,5.17
+South Korea,YTN,41,Misdemeanor,Adults,Male,6,5,5,5,5,5,5.17
+South Korea,YTN,42,Misdemeanor,Adults,Male,6,5,5,5,5,5,5.17
+South Korea,SBS,43,Misdemeanor,Adults,Male,5,5,5,5,5,5,5
+South Korea,YTN,44,Misdemeanor,Adolescents,Male,5,5,5,5,5,5,5
+South Korea,MBC,45,Misdemeanor,Adults,Male,5,5,5,5,5,5,5
+South Korea,JTBC,46,Misdemeanor,Adolescents,Male,5,5,5,5,5,5,5
+South Korea,SBS,47,Misdemeanor,Adults,Male,5,5,5,6,5,5,5.17
+South Korea,JTBC,48,Misdemeanor,Adults,Male,5,5,6,5,6,5,5.33
+South Korea,KBS,49,Heinous,Adults,Male,5,5,5,5,5,5,5
+South Korea,YTN,50,Heinous,Adults,Male,10,8,9,9,9,9,9
+South Korea,JTBC,51,Heinous,Adults,Male,6,5,5,5,5,5,5.17
+South Korea,Channel News TV,52,Heinous,Adults,Male,10,10,9,7,8,8,8.67
+South Korea,KBS,53,Misdemeanor,Adolescents,Male,6,5,5,5,5,5,5.17
+South Korea,Yonhap News TV,54,Misdemeanor,Adults,Male,5,5,5,6,6,5,5.33
+South Korea,Yonhap News TV,55,Heinous,Adults,Male,5,5,5,5,6,5,5.17
+South Korea,YTN,56,Heinous,Adults,Male,5,5,5,6,5,5,5.17
+South Korea,TV Joseon,57,Heinous,Adults,Male,7,8,8,10,10,8,8.5
+South Korea,YTN,58,Misdemeanor,Adults,Male,6,5,5,4.5,5,5,5.08
+South Korea,MBC,59,Misdemeanor,Adolescents,Male,6,7,6,5,5,5,5.67
+South Korea,SBS,60,Serious,Adults,Male,5,6,6,6,6,5,5.67
+South Korea,JTBC,61,Heinous,Adults,Male,5,5,5,5,5,5,5
+South Korea,YTN,62,Misdemeanor,Adolescents,Male,5,6,6,5,5,5,5.33
+South Korea,KBS,63,Misdemeanor,Adolescents,Male,6,5,5,5,5,5,5.17
+South Korea,Yonhap News TV,64,Misdemeanor,Adolescents,Male,5,5,5,5,5,5,5
+South Korea,Yonhap News TV,65,Heinous,Adults,Male,5,5,5,5,5,5,5
+South Korea,SBS,66,Heinous,Adults,Male,5,5,5,5,5,5,5
+South Korea,JTBC,67,Misdemeanor,Adults,Male,6,5,5,5,5,5,5.17
+South Korea,YTN,68,Misdemeanor,Adults,Male,4.5,5,5,6,6,5,5.25
+South Korea,YTN,69,Misdemeanor,Adults,Male,6,7,5,5,5,6,5.67
+South Korea,SBS,70,Misdemeanor,Adolescents,Female,5,5,6,5,6,5,5.33
+South Korea,SBS,71,Serious,Adults,Male,5,6,6,5,5,6,5.5
+South Korea,Channel News TV,72,Serious,Adults,Male,5,6,5,5,6,5,5.33
+South Korea,KBS,73,Misdemeanor,Adults,Male,5,6,6,6,5,5,5.5
+South Korea,JTBC,74,Misdemeanor,Adults,Male,5,5.5,6,5.5,5,5,5.33
+South Korea,Yonhap News TV,75,Heinous,Adults,Male,6,6,5,6,5,5,5.5
+South Korea,Channel News TV,76,Misdemeanor,Adolescents,Female,5,5,5,5,5,5,5
+South Korea,YTN,77,Misdemeanor,Adolescents,Female,5,5,5,5,6,5,5.17
+South Korea,SBS,78,Misdemeanor,Adolescents,Male,5,5,5,5,6,5,5.17
+South Korea,TV Joseon,79,Serious,Adults,Male,5,7,6,5,6,5,5.67
+South Korea,MBC,80,Petty,Adolescents,Male,5,5,5,5,5,5,5
+South Korea,YTN,81,Heinous,Adults,Male,6,7,6,5,6,5,5.83
+South Korea,MBC,82,Heinous,Adults,Male,5,5,5,5,5,5,5
+South Korea,MBC,83,Heinous,Adults,Male,5,5,5,5,6,5,5.17
+South Korea,Yonhap News TV,84,Misdemeanor,Adults,Male,5,6,6,5,5,5,5.33
+South Korea,TV Joseon,85,Serious,Adults,Male,6,5,5,5,6,5,5.33
+South Korea,KBS,86,Heinous,Adults,Male,7,9,7,8,8,7,7.67
+South Korea,KBS,87,Heinous,Adults,Male,10,10,9,8,9,9,9.17
+South Korea,YTN,88,Heinous,Adults,Male,9,9,10,9,9,9,9.17
+South Korea,YTN,89,Heinous,Adults,Male,10,9,8,9,8,9,8.83
+South Korea,SBS,90,Misdemeanor,Adolescents,Female,5,5,5,6,4,5,5
+South Korea,JTBC,91,Misdemeanor,Adolescents,Male,6,6,6,5,6,6,5.83
+South Korea,MBC,92,Misdemeanor,Adolescents,Male,5,5,6,5,6,5,5.33
+South Korea,SBS,93,Serious,Adults,Male,5,5,5,5,6,5,5.17
+South Korea,Yonhap News TV,94,Misdemeanor,Adolescents,Male,5,6,5,5,5,5,5.17
+South Korea,Yonhap News TV,95,Heinous,Adults,Male,9,8,9,8,8,8,8.33
+South Korea,Yonhap News TV,96,Misdemeanor,Adolescents,Male,6,5,5,5,6,5,5.33
+South Korea,YTN,97,Misdemeanor,Adults,Female,3,5,5,5,4,5,4.5
+South Korea,SBS,98,Serious,Adults,Male,5,6,5,5,5,6,5.33
+South Korea,MBC,99,Misdemeanor,Adults,Male,6,5,5,5,5,5,5.17
+South Korea,YTN,100,Misdemeanor,Adults,Male,5,6,6,5,5,5,5.33
+South Korea,KBS,101,Serious,Adults,Male,6,7,8,8,7,6,7
+South Korea,JTBC,102,Misdemeanor,Adults,Male,6,5,6,5,5,5,5.33
+South Korea,Yonhap News TV,103,Misdemeanor,Adults,Female,5,5,5,5,5,5,5
+South Korea,Channel News TV,104,Heinous,Adults,Male,5,6,5,5,5,5,5.17
+South Korea,KBS,105,Heinous,Adults,Male,6,7,6,5,7,6,6.17
+South Korea,JTBC,106,Misdemeanor,Adults,Female,5,5,5,5,5,5,5
+South Korea,YTN,107,Misdemeanor,Adults,Male,5,6,5,5,5,5,5.17
+Nigeria ,Channels,1,Heinous,Adults,Male,10,10,9,9,10,9,9.5
+Nigeria ,Channels,1(1),Petty,Adolescents,Male,10,9,10,10,10,9,9.67
+Nigeria ,Channels,1(2),Serious,Adults,Male,10,10,10,9,10,9,9.67
+Nigeria ,Channels,1(3),Heinous,Adults,Male,9,8,9,8,7,9,8.33
+Nigeria ,Channels,1(4),Heinous,Adults,Male,10,10,9,10,10,10,9.83
+Nigeria ,Channels,1(5),Heinous,Adults,Male,9,7,6,8,9,8,7.83
+Nigeria ,Channels,1(6),Heinous,Adults,Male,10,10,10,10,10,10,10
+Nigeria ,Channels,2,Heinous,Adolescents,Female,10,9,8,9,9,10,9.17
+Nigeria ,Channels,3,Heinous,Adults,Female,9,10,9,10,9,9,9.33
+Nigeria ,TVC news,4(1),Heinous,Adults,Male,8,9,7,9,8,9,8.33
+Nigeria ,TVC news,4(2),Heinous,Adults,Male,5,6,5,5,5,5,5.17
+Nigeria ,Channels,5,Misdemeanor,Adlts&Adolescents,Both,10,10,10,10,10,10,10
+Nigeria ,TVC news,6,Heinous,Adults,Male,6,7,5,5,5,6,5.67
+Nigeria ,TVC news,6(2),Misdemeanor,Adults,Male,6,8,7,7,6,8,7
+Nigeria ,Channels,7,Heinous,Adults,Both,8,9,10,7,6,7,7.83
+Nigeria ,Channels,8,Heinous,Children,Male,9,10,10,9,10,9,9.5
+Nigeria ,Channels,9,Heinous,Adolescents,Male,10,7,9,9,8,7,8.33
+Nigeria ,Channels,10,Heinous,Adults,Both,9,9,8,7,8,7,8
+Nigeria ,TV360,11,Heinous,Adults,Male,9,6,7,8,9,6,7.5
+Nigeria ,Channels,12,Heinous,Adults,Male,10,9,10,9,9,10,9.5
+Nigeria ,Channels,13,Misdemeanor,Adolescents,Female,9,10,9,10,7,8,8.83
+Nigeria ,Channels,14,Heinous,Adults,Male,10,10,10,10,10,10,10
+Nigeria ,CORE TV news,15,Heinous,Adults,Male,10,10,9,10,10,10,9.83
+Nigeria ,Channels,16,Heinous,Adults,Male,10,10,9,10,9,10,9.67
+Nigeria ,TVC news,17,Serious,Adults,Female,7,5,6,5,7,5,5.83
+Nigeria ,TVC news,18,Heinous,Adults,Male,9,7,8,10,10,9,8.83
+Nigeria ,Channels,19,Misdemeanor,Adults,Female,10,10,9,9,8,8,9
+Nigeria ,Channels,20,Heinous,Adults,Male,10,10,10,10,10,10,10
+Nigeria ,Channels,21,Heinous,Adults,Male,10,10,10,10,10,10,10
+Nigeria ,Channels,22,Heinous,Adults,Male,10,8,9,7,8,8,8.33
+Nigeria ,Channels,23,Misdemeanor,Adlts&Adolescents,Both,9,8,10,9,8,10,9
+Nigeria ,Channels,24,Serious,Adults,Male,10,9,9,9,10,10,9.5
+Nigeria ,Channels,25,Misdemeanor,Adlts&Adolescents,Female,9,10,9,9,10,9,9.33
+Nigeria ,Channels,26,Heinous,Adults,Male,10,10,10,10,10,10,10
+Nigeria ,TVC news,27,Heinous,Adults,Male,10,10,9,9,8,9,9.17
+Nigeria ,TVC news,28,Heinous,Adolescents,Male,10,10,8,8,9,8,8.83
+Nigeria ,TVC news,28(2),Serious,Adlts&Adolescents,Both,10,10,10,10,10,8,9.67
+Nigeria ,TVC news,28(3),Heinous,Adults,Male,10,9,10,8,8,7,8.67
+Nigeria ,TVC news,28(4),Serious,Adults,Both,8,7,8,8,7,7,7.5
+Nigeria ,TVC news,28(5),Serious,Adults,Male,8,7,8,9,9,9,8.33
+Nigeria ,TVC news,28(6),Heinous,Adults,Male,7,8,7,8,9,7,7.67
+Nigeria ,TVC news,28(7),Serious,Adults,Male,10,9,7,8,10,10,9
+Nigeria ,Channels,29,Serious,Adults,Male,10,10,9,8,9,9,9.17
+Nigeria ,Channels,30,Heinous,Adults,Male,9,9,8,10,8,7,8.5
+Nigeria ,Channels,31,Heinous,Adults,Both,8,7,6,7,8,7,7.17
+Nigeria ,Channels,32,Heinous,Adults,Both,10,9,8,10,9,7,8.83
+Nigeria ,TV360,33,Heinous,Adults,Female,8,9,7,10,8,8,8.33
+Nigeria ,Legit TV,34,Misdemeanor,Adults,Male,10,10,9,10,10,10,9.83
+Nigeria ,TVC news,35,Misdemeanor,Adults,Female,7,8,7,8,7,6,7.17
+Nigeria ,TVC news,36(1),Serious,Adults,Male,5,6,5,4.5,5,6,5.25
+Nigeria ,TVC news,36(2),Heinous,Adults,Male,10,10,9,8,9,8,9
+Nigeria ,TVC news,36(3),Serious,Adults,Male,9,10,10,9,9,10,9.5
+Nigeria ,TVC news,36(4),Heinous,Adults,Male,10,10,10,9,10,9,9.67
+Nigeria ,TVC news,36(5),Serious,Adolescents,Male,10,10,10,10,10,10,10
+Nigeria ,TVC news,36(6),Heinous,Adults,Male,8,10,7,8,10,8,8.5
+Nigeria ,TVC news,36(7),Heinous,Adults,Male,10,9,10,8,9,10,9.33
+Nigeria ,TVC news,37,Heinous,Adults,Male,9,10,8,9,8,8,8.67
+Nigeria ,TVC news,38(1),Heinous,Adults,Male,10,8,10,8,10,10,9.33
+Nigeria ,TVC news,38(2),Heinous,Adults,Male,10,10,9,10,10,10,9.83
+Nigeria ,EBS3 news,39,Heinous,Adults,Male,10,10,10,10,10,10,10
+Nigeria ,EBS3 news,40,Heinous,Adlts&Adolescents,Male,9,8,9,8,8,7,8.17
+Nigeria ,TVC news,41(1),Misdemeanor,Adults,Male,10,10,10,9,7,7,8.83
+Nigeria ,TVC news,41(2),Heinous,Adults,Male,9,8,9,7,8,10,8.5
+Nigeria ,TVC news,41(3),Misdemeanor,Adults,Male,10,9,10,10,9,10,9.67
+Nigeria ,TVC news,41(4),Serious,Adults,Male,10,10,10,9,10,9,9.67
+Nigeria ,TVC news,41(5),Serious,Adults,Male,10,8,9,9,9,7,8.67
+Nigeria ,TVC news,42(1),Misdemeanor,Adolescents,Male,9,8,6,6,7,7,7.17
+Nigeria ,TVC news,42(2),Heinous,Adults,Male,10,10,9,10,10,10,9.83
+Nigeria ,TVC news,42(3),Serious,Adults,Male,10,10,9,7,6,10,8.67
+Nigeria ,EBS3 news,43,Serious,Adults,Male,10,10,9,10,9,10,9.67
+Nigeria ,TVC news,44,Serious,Adults,Male,9,10,9,10,9,9,9.33
+Nigeria ,TVC news,44(1),Heinous,Adults,Male,9,10,9,9,9,9,9.17
+Nigeria ,Channels,44(2),Heinous,Adults,Male,10,10,10,10,10,9,9.83
+Nigeria ,TVC news,44(3),Misdemeanor,Adolescents,Male,8,9,9,9,10,9,9
+Nigeria ,TV360,45,Heinous,Adults,Male,10,9,9,8,8,9,8.83
+Nigeria ,TVC news,46,Heinous,Adults,Male,9,10,10,8,9,8,9
+Nigeria ,Channels,47,Serious,Adults,Male,10,10,10,10,10,10,10
+Nigeria ,Channels,48,Serious,Adults,Both,10,10,8,8,9,8,8.83
+Nigeria ,TVC news,49(1),Heinous,Adlts&Adolescents,Both,9,10,9,9,10,10,9.5
+Nigeria ,TVC news,49(2),Heinous,Adults,Male,10,10,10,10,10,10,10
+Nigeria ,TVC news,49(3),Heinous,Adlts&Adolescents,Both,7,5,6,6,7,5,6
+Nigeria ,TVC news,49(4),Heinous,Adults,Male,10,10,9,10,10,10,9.83
+Nigeria ,TVC news,49(5),Heinous,Adults,Male,9,10,9,10,10,9,9.5
+Nigeria ,CORE TV news,50,Serious,Adolescents,Both,5,6,5,5,5,5,5.17
+Nigeria ,Legit TV,52,Serious,Adults,Male,9,10,9,9,8,9,9
+Nigeria ,Channels,53(1),Heinous,Adults,Male,10,10,10,10,9,9,9.67
+Nigeria ,Channels,53(2),Heinous,Adults,Male,8,7,8,8,7,7,7.5
+Nigeria ,TV360,54,Serious,Adults,Male,8,7,8,9,9,9,8.33
+Nigeria ,EBS3 news,55,Heinous,Adults,Male,10,10,9,8,10,10,9.5
+Nigeria ,CORE TV news,56,Serious,Adults,Male,10,10,9,8,9,9,9.17
+Nigeria ,Channels,57(1),Heinous,Adlts&Adolescents,Male,10,10,9,10,10,10,9.83
+Nigeria ,Channels,57(2),Heinous,Adults,Both,10,10,9,10,10,10,9.83
+Nigeria ,Channels,57(3),Heinous,Adults,Male,9,10,9,9,9,9,9.17
+Nigeria ,TV360,58,Serious,Adults,Male,5,6,5,5,5,5,5.17
+Nigeria ,TV360,59,Heinous,Adults,Male,8,10,7,8,8,8,8.17
+Nigeria ,Legit TV,60,Heinous,Adults,Male,9,9,8,9,9,9,8.83
+Nigeria ,TV360,61,Serious,Adlts&Adolescents,Both,10,10,9,10,9,9,9.5
+Nigeria ,EBS3 news,62(1),Heinous,Adults,Male,10,10,10,8,9,9,9.33
+Nigeria ,EBS3 news,62(2),Heinous,Adults,Male,10,9,8,9,8,8,8.67
+Nigeria ,TV360,63,Serious,Adults,Male,9,8,7,7,7,8,7.67
+Nigeria ,TVC news,64,Heinous,Adults,Male,10,10,10,9,9,10,9.67
+Nigeria ,TVC news,65(1),Heinous,Adults,Male,10,10,10,9,10,10,9.83
+Nigeria ,TVC news,65(2),Petty,Adults,Male,9,8,6,7,8,7,7.5
+Nigeria ,TVC news,65(3),Serious,Adults,Both,10,9,8,9,8,7,8.5
+Nigeria ,TVC news,65(4),Heinous,Adults,Male,10,10,9,9,8,8,9
+Nigeria ,TVC news,65(5),Serious,Adlts&Adolescents,Both,10,9,8,9,7,7,8.33
+Nigeria ,TVC news,66,Heinous,Adults,Male,9,9,8,9,9,9,8.83
+Nigeria ,EBS3 news,67,Heinous,Adults,Both,10,10,10,10,9,9,9.67
+Nigeria ,TVC news,68,Misdemeanor,Adults,Male,10,10,10,8,9,9,9.33
+USA,Crime Watch Daily,60,Misdemeanor,Adults,Both,7,8,7,6,8,7,7.17
+USA,Crime Watch Daily,61,Heinous,Adults,Male,5,6,6,6,7,6,6
+Kenya,Nairobi News,43,Serious,Adults,Male,7,8,9,7,9,8,8
+Nigeria ,Legit TV,69,Heinous,Adults,Both,10,9,9,10,9,9,9.33
+UK,Sun UK,82,Serious,Adults,Male,5,5,5,5,5,5,5
+USA,ABC,62,Serious,Adults,Female,7,8,7,8,7,7,7.33
+USA,ABC,63,Heinous,Adults,Male,10,10,10,10,10,10,10
+USA,ABC,64,Serious,Adults,Male,6,5,5,6,5,5,5.33
+USA,ABC,65,Serious,Adults,Female,8,9,8,7,9,8,8.17
+USA,ABC,66,Misdemeanor,Adults,Female,7,6,7,8,7,7,7
+USA,CBS,67,Heinous,Adults,Male,9,8,9,9,9,9,8.83
+USA,CBS,68,Heinous,Adults,Male,7,7,8,7,8,7,7.33
+USA,Fox,69,Misdemeanor,Adults,Male,7,6,7,7,8,7,7
+USA,NBC,70,Misdemeanor,Adults,Female,6,7,6,6,8,7,6.67
+USA,ABC,71,Serious,Adults,Female,7,8,8,7,8,8,7.67
